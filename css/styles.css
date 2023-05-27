@@ -153,6 +153,14 @@ img {
   background: var(--first-title-color);
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .main-text {
@@ -214,6 +222,17 @@ img {
 
 .about-item {
   width: calc((100% - 72px) / 4);
+}
+
+.about-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  width: 264px;
+  background-color: #F4F4FD;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .about-name {
