@@ -76,7 +76,6 @@ img {
 .header-navigation {
   display: flex;
   align-items: center;
-
 }
 
 .header-list {
@@ -85,7 +84,7 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding-right: 332px;
+  margin-right: 332px;
 }
 
 .logo-web {
@@ -97,7 +96,6 @@ img {
   color: #4d5ae5;
   text-decoration: none;
   margin-right: 76px;
-  
 }
 
 .logo-studio {
