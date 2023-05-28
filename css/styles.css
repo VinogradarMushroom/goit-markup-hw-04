@@ -432,32 +432,32 @@ img {
   max-width: 264px;
 }
 
-.footer-second-main{
-
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  gap: 120px;
 }
 
 .footer-social {
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-white-color);
   margin-bottom: 16px;
-  text-align: center;
 }
 
-.social-media-list{
+.social-media-list {
   display: flex;
-  justify-content: center;
   gap: 16px;
 }
 
-.social-media-item{
+.social-media-item {
   width: 40px;
   height: 40px;
 }
 
-.social-media-link{
+.social-media-link {
   width: 100%;
   height: 100%;
   background-color: var(--blue-second-color);
@@ -467,15 +467,13 @@ img {
   justify-content: center;
 }
 
-.social-media-link:is(:hover,:focus){
+.social-media-link:is(:hover, :focus) {
   background-color: var(--accent-color);
 }
 
-.social-media-icon{
+.social-media-icon {
   fill: #f4f4fd;
-
 }
-
 
 /**-----------------PORTFOLIO-------------*/
 
