@@ -475,7 +475,7 @@ img {
 }
 
 .social-media-link:is(:hover, :focus) {
-  background-color: var(--accent-color);
+  background-color: #31d0aa;
 }
 
 .social-media-icon {
