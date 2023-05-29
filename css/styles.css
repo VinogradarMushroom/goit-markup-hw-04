@@ -389,8 +389,7 @@ img {
 
 .customer-ico {
   fill: currentColor;
-  width: 84px;
-  height: 41px;
+
 }
 
 .customers-link:is(:hover, :focus) {
