@@ -442,7 +442,10 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+}
+
+.footer-main{
+  margin-right: 120px;
 }
 
 .footer-social {
